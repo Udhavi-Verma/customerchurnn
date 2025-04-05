@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.preprocessing import LabelEncoder
-
+#sample commit in develop branch
 # Load the trained model
 filename = 'Model.sav'
 load_model = pickle.load(open(filename, 'rb'))
